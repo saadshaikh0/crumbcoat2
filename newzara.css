@@ -1,0 +1,116 @@
+body,html{
+  width: 100%;
+  height:100%;
+  overflow-x: hidden;
+}
+nav.navbar{
+  background:transparent;
+  margin:0;
+  position: absolute;
+  top:0;
+  width:100%;
+  z-index:2;
+  border:0px;
+
+}
+button.navbar-toggler{
+  display: none;
+}
+.navbar-header a{
+  font-family: 'Playball', cursive;
+
+  color:white!important;
+  font-size:30px;
+}
+.navbar-right{
+  padding-right:20px;
+}
+nav li a{
+  font-size:20px;
+  font-family: 'Roboto', sans-serif;
+  color:white!important;
+}
+div.landing{
+  width:100%;
+  height:85%;
+  background-image: url("images/cake2.jpg");
+  background-size:100% 100%;
+  position:relative;
+}
+div.landing::after{
+  position:absolute;
+  top:0;
+  width:100%;
+  height:100%;
+  content:" ";
+  background: rgba(0, 0, 0, 0.2);
+}
+div.landing .heading{
+position: absolute;
+top: 50%;
+left: 50%;
+z-index:2;
+transform:translate(-50%,-70%);
+}
+.heading h1{
+  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
+
+  text-align: center;
+  color:white;
+}
+.heading p{
+font-size:55px;
+font-family: 'Dancing Script', cursive;
+color:white;
+text-align:center;
+
+}
+ul.crumbcoat-image{
+text-align: center;
+  list-style: none;
+width:100%;
+}
+ul li.one{
+  display:inline-block;
+  background-image:url("images/logo4.png");
+  width:200px;
+  height:100px;
+  background-size:100% 100%;
+  margin:0px;
+}
+div.collapse{
+  border: 0px;
+}
+ul li.two{
+  display:inline-block;
+  background-image:url("images/logo3.png");
+  width:200px;
+  transform:translateX(-90px);
+  height:100px;
+  margin:0px;
+  background-size:100% 100%;
+}
+.fa-align-justify{
+  color: white;
+}
+@media screen and (max-width:700px){
+  button.navbar-toggler{
+    display: block;
+    float:right;
+    margin-top: 10px;
+    background: none;
+    border: 0px;
+   margin-right: 20px;
+   padding: 10px;
+  }
+  .heading h1{
+    font-size: 60px;
+
+  }
+  .heading p{
+  font-size:30px;
+
+
+  }
+}
