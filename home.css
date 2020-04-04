@@ -6,8 +6,8 @@ body,html{
 
 nav.navbar.navbar-default{
   height: 60px;
-  background-color: #2f052a;
-
+  background-color: #cebccb;
+  margin: 0;
 }
 
 .navbar-brand {
@@ -29,8 +29,20 @@ nav li a {
 
 .landingpage{
   position: relative;
-  height: 85%;
+  height: 80%;
   width: 100%;
   background-image: url('images/cake5.jpg');
   background-size:100% 100%;
+  z-index: -1;
+}
+
+.landingpage h1{
+  margin: 0;
+  position: absolute;
+  color: black;
+  font-size: 60px;
+  font-family: 'Dancing script', serif;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
 }
