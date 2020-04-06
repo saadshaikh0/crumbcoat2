@@ -46,3 +46,15 @@ nav li a {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.delicacy{
+  position: relative;
+  top: -30px;
+}
+
+.dishes img{
+  height: 300px;
+  width: 80%;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
